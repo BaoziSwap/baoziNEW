@@ -5,7 +5,7 @@
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://Baoziswap.finance",
+  "homepage": "https://Baoziswap.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/Baoziswap/Baozi-swap-periphery.git"
