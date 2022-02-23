@@ -1,11 +1,9 @@
 import {
   BTCLogo,
-  CNLogo,
   ETHLogo,
   JSTLogo,
   NFTLogo,
   OSKLogo,
-  POSCHELogo,
   SafeMoneyLogo,
   SUNLogo,
   TRXLogo,
@@ -14,6 +12,14 @@ import {
   USDJLogo,
   WBTTLogo,
   WINLogo,
+  RickLogo,
+  GskLogo,
+  PnLogo,
+  BtzcLogo,
+  NdwLogo,
+  AcvtLogo,
+  DiceLogo,
+  LiveLogo,
 } from '../assets/icons/tokens';
 import { TypeToken } from '../types';
 
@@ -30,7 +36,7 @@ export const tokenList: TypeToken[] = isProduction
       },
       {
         name: 'SafeMoney',
-        symbol: 'SMT',
+        symbol: 'SM',
         address: 'TNBrVEzuVYbNbGF2ua3ivSX5Y5V9N4xhax',
         decimals: 8,
         logo: SafeMoneyLogo,
@@ -47,6 +53,13 @@ export const tokenList: TypeToken[] = isProduction
         symbol: 'WBTT',
         address: 'TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt',
         decimals: 6,
+        logo: WBTTLogo,
+      },
+      {
+        name: 'BTT New',
+        symbol: 'BTT',
+        address: 'TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4',
+        decimals: 18,
         logo: WBTTLogo,
       },
       {
@@ -70,14 +83,13 @@ export const tokenList: TypeToken[] = isProduction
         decimals: 18,
         logo: USDJLogo,
       },
-    {
-        name: 'testoken',
-        symbol: 'test',
-        address: 'TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8',
+      {
+        name: 'GoldenSpark',
+        symbol: 'GSK',
+        address: 'TTtVBQ75mnW3XNvUKTDUKMS3QMfjoz11CK',
         decimals: 6,
-        logo: TRXLogo,
+        logo: GskLogo,
       },
-      
       {
         name: 'SUN TOKEN',
         symbol: 'SUN',
@@ -121,18 +133,53 @@ export const tokenList: TypeToken[] = isProduction
         logo: ETHLogo,
       },
       {
-        name: 'POSCHE Token',
-        symbol: 'POSCHE',
-        address: 'TYofwf9oM6CPU1rCTwNnEuwzhB5DTQu8rW',
+        name: 'Infinite Ricks',
+        symbol: 'RICK',
+        address: 'TDk5875Key1Yu2TxWy5W5EogUP86r7Jhxd',
         decimals: 6,
-        logo: POSCHELogo,
+        logo: RickLogo,
       },
       {
-        name: 'BreedTech',
-        symbol: 'CN',
-        address: 'TGTE9Eo4hrkotStM1iGHSKA7gobxZxPuwQ',
+        name: 'NDW',
+        symbol: 'NDW',
+        address: 'TCdB7kBa2TFng6Kc57Uf6ai2psBGi5zyij',
         decimals: 6,
-        logo: CNLogo,
+        logo: NdwLogo,
+      },
+      {
+        name: 'BeatzCoin',
+        symbol: 'BTZC',
+        address: 'TNsnPquPbEo6zCYSB9mZbrnSogyJ3cksNo',
+        decimals: 6,
+        logo: BtzcLogo,
+      },
+      {
+        name: 'PN',
+        symbol: 'PN',
+        address: 'TDxbHVxtpDoJJ5bnG6xJHc1ezJK5Zuuw2S',
+        decimals: 6,
+        logo: PnLogo,
+      },
+      {
+        name: 'ActivEightCoin',
+        symbol: 'ACTIV',
+        address: 'TVoxBVmFuBM7dsRnfi1V8v1iupv4uyPifN',
+        decimals: 8,
+        logo: AcvtLogo,
+      },
+      {
+        name: 'TRONbetDice',
+        symbol: 'DICE',
+        address: 'TKttnV3FSY1iEoAwB4N52WK2DxdV94KpSd',
+        decimals: 6,
+        logo: DiceLogo,
+      },
+      {
+        name: 'TRONbetLive',
+        symbol: 'LIVE',
+        address: 'TVgAYofpQku5G4zenXnvxhbZxpzzrk8WVK',
+        decimals: 6,
+        logo: LiveLogo,
       },
     ]
   : [
