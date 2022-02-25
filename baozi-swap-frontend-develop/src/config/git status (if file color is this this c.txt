@@ -1,0 +1,4 @@
+git status (if file color is this this code need to be change)
+git add filename
+git commit -m "comment need to be put here"
+git push origin main
