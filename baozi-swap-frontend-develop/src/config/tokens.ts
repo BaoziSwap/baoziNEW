@@ -42,11 +42,11 @@ export const tokenList: TypeToken[] = isProduction
         logo: SafeMoneyLogo,
       },
       {
-        name: 'USDT',
-        symbol: 'USDT',
-        address: 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t',
-        decimals: 6,
-        logo: USDTlogo,
+        name: 'OSK',
+        symbol: 'OSK',
+        address: 'TDk91SWz2GvwfZwMTGX21d4ngUUH8YZZAv',
+        decimals: 18,
+        logo: OSKLogo,
       },
       {
         name: 'Wrapped BitTorrent',
@@ -148,7 +148,7 @@ export const tokenList: TypeToken[] = isProduction
       },
       {
         name: 'BeatzCoin',
-        symbol: 'wBTZC',
+        symbol: 'BTZC',
         address: 'TNsnPquPbEo6zCYSB9mZbrnSogyJ3cksNo',
         decimals: 6,
         logo: BtzcLogo,
@@ -182,33 +182,4 @@ export const tokenList: TypeToken[] = isProduction
         logo: LiveLogo,
       },
     ]
-  : [
-      {
-        name: 'TRX',
-        symbol: 'TRX',
-        address: '',
-        decimals: 6,
-        logo: TRXLogo,
-      },
-      {
-        name: 'Solana',
-        symbol: 'SOL',
-        address: 'TMCtbHNYWavDHBPEcJvDij6uAUU3cHq5xJ',
-        decimals: 18,
-        logo: TRXLogo,
-      },
-      {
-        name: 'Cardano',
-        symbol: 'ADA',
-        address: 'TSk6XgRK6k9Y9nwcLx3ZJXf4XA9eurtceK',
-        decimals: 18,
-        logo: TRXLogo,
-      },
-      {
-        name: 'DOGE',
-        symbol: 'DOGE',
-        address: 'TDNSKtL8vSWeGPFGm9TymtJptqNcotBWHG',
-        decimals: 18,
-        logo: TRXLogo,
-      },
-    ];
+  
