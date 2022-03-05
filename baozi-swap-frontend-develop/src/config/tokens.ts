@@ -42,11 +42,11 @@ export const tokenList: TypeToken[] = isProduction
         logo: SafeMoneyLogo,
       },
       {
-        name: 'OSK',
-        symbol: 'OSK',
-        address: 'TDk91SWz2GvwfZwMTGX21d4ngUUH8YZZAv',
-        decimals: 18,
-        logo: OSKLogo,
+        name: 'USDT',
+        symbol: 'USDT',
+        address: 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t',
+        decimals: 6,
+        logo: USDTlogo,
       },
       {
         name: 'Wrapped BitTorrent',
@@ -148,7 +148,7 @@ export const tokenList: TypeToken[] = isProduction
       },
       {
         name: 'BeatzCoin',
-        symbol: 'BTZC',
+        symbol: 'wBTZC',
         address: 'TNsnPquPbEo6zCYSB9mZbrnSogyJ3cksNo',
         decimals: 6,
         logo: BtzcLogo,
