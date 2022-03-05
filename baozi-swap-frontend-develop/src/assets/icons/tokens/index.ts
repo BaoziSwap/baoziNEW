@@ -1,5 +1,5 @@
 export { default as TRXLogo } from './tron-trx-logo.png';
-export { default as OSKLogo } from './osk-logo.png';
+export { default as USDTlogo } from './usdt-logo.png';
 export { default as WBTTLogo } from './wbtt-logo.png';
 export { default as JSTLogo } from './jst-logo.png';
 export { default as BTCLogo } from './btc-logo.png';
