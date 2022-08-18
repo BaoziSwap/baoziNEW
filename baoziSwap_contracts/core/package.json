@@ -48,7 +48,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.4.1",
+    "@openzeppelin/contracts": "^4.7.3",
     "@truffle/hdwallet-provider": "^1.4.1",
     "dotenv": "^9.0.2",
     "solhint": "^3.3.4",
