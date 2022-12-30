@@ -26,9 +26,9 @@
     "chai": "^4.2.0",
     "ethereum-waffle": "^2.4.1",
     "ethereumjs-util": "^6.2.0",
-    "hardhat": "^2.2.1",
+    "hardhat": "^2.12.5",
     "hardhat-deploy": "^0.7.5",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
     "solc": "^0.8.4",
@@ -54,7 +54,7 @@
     "solhint": "^3.3.4",
     "tronbox": "^2.7.24",
     "tronweb": "^4.0.1",
-    "truffle": "^5.1.41",
+    "truffle": "^5.7.1",
     "truffle-flattener": "^1.4.4"
   }
 }
